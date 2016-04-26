@@ -1,0 +1,17 @@
+/*slide*/
+article .bx-wrapper {
+    top: -66px!important;
+}
+
+.bx-wrapper .bx-viewport{
+	box-shadow: none!important;
+	border:none!important;
+}
+/*contact form*/
+
+div.wpcf7 {
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    margin-bottom: 15px;
+}

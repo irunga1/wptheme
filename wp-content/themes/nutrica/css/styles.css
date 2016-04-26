@@ -1,0 +1,327 @@
+/*General*/
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+	background-color:#27A79A; 
+}
+html, body{
+	margin:0px;
+	height:100%;	
+	font-family:tahoma;
+}
+
+.ntContainer{
+	width:100%;
+	height:100%;
+	display: inline-block;
+}
+
+aside {
+	width: 20%;
+	min-width:190px;
+	float: left;
+	background-color:#27A79A;
+	display: inline-block;
+	height:100%;
+}
+
+article {
+	height:100%;	
+	width: 80%;
+	float: left;
+	background-color:#fff;
+}
+
+.ntClear{
+	clear:both;
+}
+
+.ntAsHead{
+	height:auto;
+	padding:20px;
+}
+.ntAsHeadImage{
+	border-bottom:1px solid #fff;
+	min-height:185px;
+	background-position: center center;
+	background-image:url("../images/nutricalogo.png");
+	background-repeat:no-repeat;
+	padding-bottom:10px;
+	
+	
+}
+.ntMenu{
+	
+}
+.ntMenu ul{
+	list-style:none;
+	margin:0px; 
+	padding:0px;
+}
+.ntMenu li{
+	display:block;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left: 20px;
+	
+}
+.ntMenu li a{
+	text-align:center;
+	font-size:16px;
+	font-weight:400;
+	font-family:tahoma;
+	text-transform: uppercase;
+	text-align: left;
+	text-decoration:none;
+	color:#fff;
+}
+.ntMenu li:hover{
+	background-color:#FFB401;
+	height:22px;
+}
+
+article ul{
+	margin:0px;
+}
+/* General */
+
+/*Home*/
+article header{
+	min-height:380px;	
+	border-left:none;
+	border-right:none;
+	background-color:#fff;
+	overflow: hidden;
+}
+
+article header li{
+	list-style:none;
+}
+
+.ntPcontainer{
+	min-height:600px;	
+	border-left:none;
+	border-right:none;
+	background-color:#fff;
+	padding-bottom: 5px;
+}
+.ntPsubContainer{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+	
+	
+.ntContainer h1{
+	font-family: 'Oswald', sans-serif;
+	color:#ffb300;
+	display:inline-block;
+	margin-bottom:35px;
+}
+
+.ntHistory{
+	min-height:500px;
+	background-color:#fff;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #fff;
+    background-image: url("../images/logo-cert-sqf.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 25%;    
+    border: none !important;
+
+}
+.bx-viewport {
+    margin-top: -4px!important;
+}
+.sub-menu{
+	display:none;
+} 
+.sub-menu {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+.ntMenu li:hover:hover .sub-menu{
+	display: block;
+	position: relative;	
+	left: 100%;
+	background-color:#FFB401;
+    margin-top: -41px;
+} 
+.ntMenu li:hover:hover .sub-menu ul, .ntMenu li:hover:hover .sub-menu li{
+	font-weight:400;
+	height:22px;
+}
+.sub-menu li{
+	border-bottom:1px solid #fff;
+}
+.sub-menu:hover li{
+	font-weight:700;
+}
+
+.ntMenu ul {
+    z-index: 9999999;
+}
+
+/*Home*/
+
+		.ntSubHistory {
+		display: inline-block;
+		width: 13%;
+		border-left: 0px solid #fff;
+		border-right: 0px solid #fff;
+		height: 100%;
+		margin-left: 5px;
+	}
+
+	#ntHistory {
+		width: auto;		
+		background-image: url("../images/campo.jpg");
+		background-size: 100% 100%;
+		height: 100%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.ntFrag{
+		font-family:arial;
+		width:85%;
+		color:#fff;
+		background-color:gray;
+		opacity:0.7;
+		padding:0 5px;
+		display:block;
+		margin: 0 auto;
+		text-align: justify;
+	}
+	.ntFrag p{
+		color:#fff;
+		font-size:11px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.ntAge {
+		text-align: center;
+		font-size: 50px;
+		font-weight: 700;
+		font-family: arial;
+		display: block;
+		color:  #26A59A;
+		background-color:#FFE473;
+		word-break: break-all;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		height:60px;
+	}
+	.ntSmallAge{
+		font-size:25px;
+		
+	}
+	header img{
+		width:100%!important;
+		width:50%;
+	}
+/*mediaquery*/
+
+	.ntScroll {
+		margin: 0 auto;
+		width: 80%;
+		overflow-y: scroll;
+		max-height: 400px;
+		margin-top: -90px;
+	}
+
+	.ntScrollText h2 {
+		color: orange;
+		text-align: left;
+		font-family: 'Oswald', sans-serif;
+		font-size:35px;
+	}
+	.ntScrollText p{
+		font-size:12px;
+		text-align:justify;
+		padding: 0px;
+	}
+	.ntSubHistory {
+		display: inline-block;
+		width: 13%;
+		border-left: 0px solid #fff;
+		border-right: 0px solid #fff;
+		height: 100%;
+		margin-left: 5px;
+	}
+	.ntFrag{
+		font-family:arial;
+		width:85%;
+		color:#fff;
+		background-color:gray;
+		transparent:0.7;
+		padding:0 5px;
+		display:block;
+		margin: 0 auto;
+		text-align: justify;
+	}
+	.ntFrag p{
+		color:#fff;
+		font-size:11px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.ntAge {
+		text-align: center;
+		font-size: 50px;
+		font-weight: 700;
+		font-family: arial;
+		display: block;
+		color:  #26A59A;
+		background-color:#FFE473;
+		word-break: break-all;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		height:60px;
+	}
+	.ntSmallAge{
+		font-size:25px;
+		
+	}
+	
+	.ntPcontainer h4{
+		border-bottom:3px solid #000;
+		font-family:arial;
+		padding-bottom: 15px;
+	}
+	
+.ntTitleH1 {
+    background-color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #fff;
+    font-family: 'oswald';
+    font-weight: 700;
+    padding-right: 59px;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.ntContenText{
+	color:gray;
+	font-family:arial;
+	font-size:12px;
+	
+}
+.ntPcontainer p{
+	color:gray;
+	font-family:arial;
+	font-size:12px;
+	width:60%;
+	
+	
+}
+.form-table{
+	float:right;
+}
